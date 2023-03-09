@@ -110,9 +110,9 @@ functions should work to achieve the same results.
 
 ### Export Video (.webm or .mp4)
 
-    gource --load-config cms.conf -1920x1080 cmsapis.log -o - | ffmpeg -y -r 60 -f image2pipe -vcodec ppm -i - -vcodec libvpx -b 10000K gource.webm
+    gource --load-config cms.conf -1920x1080 cmsapis.log -f -o - | ffmpeg -y -r 60 -f image2pipe -vcodec ppm -i - -vcodec libvpx -b 10000K cms-gource.webm
 
-    gource -1920x1080 -o - | ffmpeg -y -r 60 -f image2pipe -vcodec ppm -i - -vcodec libx264 -preset ultrafast -pix_fmt yuv420p -crf 1 -threads 0 -bf 0 gource.mp4
+    gource --load-config cms.conf -1920x1080 cmsapis.log -f -o - | ffmpeg -y -r 60 -f image2pipe -vcodec ppm -i - -vcodec libx264 -preset ultrafast -pix_fmt yuv420p -crf 1 -threads 0 -bf 0 cms-gource.mp4
 
 
 ## LICENSE
