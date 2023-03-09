@@ -1,6 +1,6 @@
 # cms-gource
 
-This repository contains a configuration scripts, log files, and graphic assets
+This repository contains configuration scripts, log files, and graphic assets
 used to generate a source code repository visualization using [Gource](https://gource.io).
 
 ## Usage
@@ -58,6 +58,13 @@ functions should work to achieve the same results.
     gource --output-custom-log log4.txt repos/bluebutton-web-server
     gource --output-custom-log log5.txt repos/dpc-app
 
+### Insert Names
+
+    sed -i -r -E "s#(.+)\|#\1|/ab2d#" log1.txt
+    sed -i -r -E "s#(.+)\|#\1|/bcda#" log2.txt
+    sed -i -r -E "s#(.+)\|#\1|/beneficiary-fhir-data#" log3.txt
+    sed -i -r -E "s#(.+)\|#\1|/blue-button#" log4.txt
+    sed -i -r -E "s#(.+)\|#\1|/dpc#" log5.txt
 
 ### Colorize Logs (using vim)
 
@@ -68,15 +75,6 @@ functions should work to achieve the same results.
     :%norm A|136A5D
 
     ...
-
-
-### Insert Names
-
-    sed -i -r -E "s#(.+)\|#\1|/ab2d#" log1.txt
-    sed -i -r -E "s#(.+)\|#\1|/bcda#" log2.txt
-    sed -i -r -E "s#(.+)\|#\1|/beneficiary-fhir-data#" log3.txt
-    sed -i -r -E "s#(.+)\|#\1|/blue-button#" log4.txt
-    sed -i -r -E "s#(.+)\|#\1|/dpc#" log5.txt
 
 
 ### Concatenate and Sort Logs
