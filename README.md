@@ -3,6 +3,11 @@
 This repository contains configuration scripts, log files, and graphic assets
 used to generate a source code repository visualization using [Gource](https://gource.io).
 
+For more information on how to use [CMS.gov](https://cms.gov)'s collection of
+APIs, datasets, frameworks, and style guides to develop applications that help
+people get the services and benefits they rely on, visit
+[developer.cms.gov](https://developer.cms.gov).
+
 ## Usage
 1. install dependencies
 2. create repos directory
