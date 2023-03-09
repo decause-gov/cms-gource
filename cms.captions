@@ -1,16 +1,16 @@
-1452023553|Beneficiary FHIR Data (BFD) Server Development begins
+1452023553|Beneficiary FHIR Data (BFD) Server Development begins - https://github.com/CMSgov/beneficiary-fhir-data
 1453223553|BFD Server is an internal backend to Medicare beneficiaries' demographic, enrollment, and claims data in FHIR format
-1519918534|BlueButton 1.0 API Public Launch
-1532354880|Beneficiary Claims Data API (BCDA) Development Begins
+1519918534|BlueButton 1.0 API Public Launch - https://github.com/CMSgov/bluebutton-web-server
+1532354880|Beneficiary Claims Data API (BCDA) Development Begins - https://github.com/CMSgov/bcda-app
 1533474881|BCDA enables Accountable Care Organizations (ACOs) to retrieve Medicare Part A/B/D claims data for beneficiaries.
-1534186800|BlueButton Developer Conference @ WhiteHouse
-1549378195|Data-at-the-point-of-care (DPC) API Development Begins
+1534186800|BlueButton Developer Conference @ WhiteHouse - https://bluebutton.cms.gov/bb2dc18/
+1549378195|Data-at-the-point-of-care (DPC) API Development Begins - https://github.com/CMSgov/dpc-app
 1549498195|DPC enables making a patient's Medicare claims data available to health care providers for treatment purposes
-1569615216|AB2D API Development Begins
+1569615216|AB2D API Development Begins - https://github.com/CMSgov/ab2d
 1570615217|AB2D API provides Prescription Drug Sponsors with secure Medicare parts A and B claims data for their plan enrollees
 1588348800|Interoperability and Patient Access final rule published, with enforcement starting July 2021
 1604250000|CARIN Blue Button Implementation Guide (IG) v1.0 released
 1625166000|BlueButton 2.0 API Released
-1677678057|Visit https://github.com/CMSgov to see repos featured in this demo.
-1678778057|Visit https://Developer.cms.gov for more information about our Developer Programs
-1679878057|Thank you SCaLE20x
+1677678057|Visit https://github.com/CMSgov to see all the repos featured in this demo
+1678778057|Visit https://Developer.cms.gov for more info about sharing your data and participating in CMS Developer Programs
+1679878057|Thank you SCaLE20x :D
