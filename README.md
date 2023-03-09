@@ -8,8 +8,8 @@ used to generate a source code repository visualization using [Gource](https://g
 2. create repos directory
 3. clone repos
 4. generate logs
-5. colorize logs
-6. insert names
+5. insert names
+6. colorize logs
 7. Concatenate and sort logs
 8. run gource 
 9. export video
