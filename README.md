@@ -93,6 +93,10 @@ functions should work to achieve the same results.
     APIs + design-system
     cat log1.txt log2.txt log3.txt log4.txt log5.txt log6.txt | sort -n > cmsapis-plusdesign.log
 
+    APIs + QPP quality tools
+    cat log1.txt log2.txt log3.txt log4.txt log5.txt log7.txt log8.txt | sort -n > cmsapis-plusqpp.log
+
+
 
 ### Run Gource Visualization
 
