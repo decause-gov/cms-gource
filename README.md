@@ -87,16 +87,20 @@ functions should work to achieve the same results.
 
 ### Concatenate and Sort Logs
 
-    APIs Only
+    APIs only
     cat log1.txt log2.txt log3.txt log4.txt log5.txt | sort -n > cmsapis.log
 
-    APIs + Design-system
+    APIs + design-system
     cat log1.txt log2.txt log3.txt log4.txt log5.txt log6.txt | sort -n > cmsapis-plusdesign.log
 
 
 ### Run Gource Visualization
 
+    APIs Only
     time gource --load-config cms.conf -f -1920x1080 cmsapis.log 
+
+    API + design-system
+    time gource --load-config cms.conf -f -1920x1080 cmsapis-plusdesign.log 
 
 (last output: 131.51s user 6.60s system 33% cpu 6:51.33 total)
 
