@@ -48,6 +48,7 @@ functions should work to achieve the same results.
     git clone https://github.com/CMSgov/beneficiary-fhir-data.git
     git clone https://github.com/CMSgov/bluebutton-web-server.git
     git clone https://github.com/CMSgov/dpc-app.git
+    git clone https://github.com/CMSgov/design-system.git
 
 
 ### Generate Logs
@@ -57,6 +58,7 @@ functions should work to achieve the same results.
     gource --output-custom-log log3.txt repos/beneficiary-fhir-data
     gource --output-custom-log log4.txt repos/bluebutton-web-server
     gource --output-custom-log log5.txt repos/dpc-app
+    gource --output-custom-log log6.txt repos/design-system
 
 ### Insert Names
 
@@ -65,6 +67,7 @@ functions should work to achieve the same results.
     sed -i -r -E "s#(.+)\|#\1|/beneficiary-fhir-data#" log3.txt
     sed -i -r -E "s#(.+)\|#\1|/blue-button#" log4.txt
     sed -i -r -E "s#(.+)\|#\1|/dpc#" log5.txt
+    sed -i -r -E "s#(.+)\|#\1|/design-system#" log6.txt
 
 ### Colorize Logs (using vim)
 
@@ -79,7 +82,11 @@ functions should work to achieve the same results.
 
 ### Concatenate and Sort Logs
 
+    APIs Only
     cat log1.txt log2.txt log3.txt log4.txt log5.txt | sort -n > cmsapis.log
+
+    APIs + Design-system
+    cat log1.txt log2.txt log3.txt log4.txt log5.txt log6.txt | sort -n > cmsapis-plusdesign.log
 
 
 ### Run Gource Visualization
