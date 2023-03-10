@@ -1,5 +1,7 @@
 # cms-gource
 
+[![Screenshot of Gource.io visualization of Developer.CMS.gov source code repositories](https://img.youtube.com/vi/nd4ORHxgvAY/0.jpg "https://www.youtube.com/watch?v=nd4ORHxgvAY")](https://www.youtube.com/watch?v=nd4ORHxgvAY)
+
 This repository contains configuration scripts, log files, and graphic assets
 used to generate a source code repository visualization using [Gource](https://gource.io).
 
