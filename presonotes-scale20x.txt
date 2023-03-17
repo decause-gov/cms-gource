@@ -131,13 +131,10 @@ interoperability and unleash innovation, while reducing burden on payers and pro
 
 - Together, Blue Button 2.0 and the Interoperability and Patient Access final rule
 establish policies and implement data exchange capabilities aimed at:
-
-<ul>
-    • Enabling better patient access to their health information;
-    • Improving interoperability across the health care system;
-    • Unleashing innovation, and;
-    • Reducing administrative burden on payers and providers.
-</ul>
+    - Enabling better patient access to their health information;
+    - Improving interoperability across the health care system;
+    - Unleashing innovation, and;
+    - Reducing administrative burden on payers and providers.
 
 
 ## Gource Configuration file Walkthrough
