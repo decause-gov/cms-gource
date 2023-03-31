@@ -5,6 +5,13 @@
 This repository contains configuration scripts, log files, and graphic assets
 used to generate a source code repository visualization using [Gource](https://gource.io).
 
+This work was presented at the
+[SCaLE20x](https://www.socallinuxexpo.org/scale/20x) conference in March of
+2023 in a talk entitled [Repodiving into Open Source at
+CMS.gov](https://www.socallinuxexpo.org/scale/20x/presentations/repodiving-open-source-cmsgov),
+with the recording uploaded to the [conference YouTube
+Channel](https://youtu.be/AypgQch2Qpk).
+
 For more information on how to use [CMS.gov](https://cms.gov)'s collection of
 APIs, datasets, frameworks, and style guides to develop applications that help
 people get the services and benefits they rely on, visit
